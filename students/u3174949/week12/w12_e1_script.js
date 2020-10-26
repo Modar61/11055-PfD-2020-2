@@ -14,7 +14,7 @@ var bookarr = []
 
 // the normal for loop we have looked at so far
 for (let i = 0; i < isbnarr.length; i++) {
-    bookarr.push(new bookCover(isbnarr[i], "M"));
+    bookarr.push(new bookCover(isbnarr[i], "L"));
 }
 
 // the for (variable of iterable) will loop through each item in an array
